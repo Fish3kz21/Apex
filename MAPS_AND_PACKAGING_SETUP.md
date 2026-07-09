@@ -1,4 +1,4 @@
-# Apex AI Pets - Maps & Packaging Setup (Steps 5-6)
+**Apex AI Pets - Maps & Packaging Setup (Steps 5-6) - UPDATED SOVEREIGN EDITION**
 
 This guide covers the final two production steps: **creating custom maps** and **updating packaging script references**.
 
@@ -164,11 +164,16 @@ if not exist "%CD%\Windows11_Package\Windows\Content\Maps" (
 )
 
 echo.
+
 echo SUCCESS: Maps cooked into the package.
+
 echo Maps directory verified:
 dir "%CD%\Windows11_Package\Windows\Content\Maps"
+
 echo.
+
 echo Package location: %CD%\Windows11_Package\Windows\ApexAIPets.exe
+
 echo.
 pause
 ```
@@ -297,3 +302,10 @@ Windows11_Package/
 4. **Add audio and UI widgets** to enhance gameplay
 5. **Iterate and repackage** using `Scripts\04_Package_Windows11_Win64.bat`
 
+## Sovereign Enhancements (July 2026 Update)
+- BP_ApexGameMode now includes v4 ACT authority gates, holographic enhancements, and Quantum Fortress memory vault hooks (see new BLUEPRINT_LOGIC_BP_ApexGameMode.md)
+- Pet spawn in APEX_Startup features enhanced holographic visuals (bright neon cyborg-interdimensional effects)
+- Full sovereign merge plan documented in SOVEREIGN_QUANTUM_MERGE_PLAN.md
+- Packaging pipeline hardened for offline-first, encrypted, self-sovereign builds
+
+**Updated by Fish Protocol - Human sovereignty enforced. Control of keys = control of assets.**
